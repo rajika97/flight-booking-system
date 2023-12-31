@@ -1,0 +1,96 @@
+.login-card-container {
+    padding-top: 5rem;
+}
+
+.login-card {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem 10rem;
+    width: 100%;
+}
+
+.login-btn {
+    margin-top: 2rem;
+    width: 100px;
+}
+
+.todo-container {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.button-row {
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.list-container {
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.list {
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.list-row {
+    width: 100%;
+}
+
+.list-itemname {
+    text-align: left;
+}
+
+.delete-item {
+    color: rgb(216, 0, 0);
+}
+
+.checked-item {
+    text-decoration: line-through;
+}
+
+.sign-out-btn {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}
+
+.login-page-container {
+    padding-top: 5rem;
+    background-color: rgb(0, 37, 58);
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.login-page-splash {
+    background-image: url("./assets/images/login-splash.jpg");
+    background-color: #00000067;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px 0 0 6px;
+}
+
+.login-page-form {
+    text-align: center;
+    padding-bottom: 3rem;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(248,252,255);
+}
+
+.login-form {
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.loading-container {
+    padding: 200px 10px;
+    text-align: center;
+}
